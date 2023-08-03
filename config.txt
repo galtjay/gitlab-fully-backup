@@ -1,0 +1,15 @@
+#
+[WECHAT]
+WEBHOOK_URL = https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=fffffff-aaaaaaa-kkkkkk-eeeeee
+
+[MINIO]
+MINIO_ENDPOINT = 123.123.123.123:9000
+MINIO_ACCESS_KEY = gitlab
+MINIO_SECRET_KEY = yoursecretkey
+GITLAB_BUCKET_NAME = gitlab-backup
+
+[BACKUP]
+#Local storage days本地存储天数
+LOCAL_STORE_DAYS= 3
+#Remote storage days远程存储时间天数
+MINIO_STORE_DAYS= 14
